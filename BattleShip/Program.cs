@@ -17,7 +17,14 @@ namespace BattleShip
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartForm());
+            try
+            {
+                Application.Run(new StartForm());
+            }
+            catch
+            {
+
+            }
         }
     }
 }

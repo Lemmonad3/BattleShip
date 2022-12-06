@@ -15,7 +15,14 @@ namespace BattleShip
         public StartForm()
         {
             InitializeComponent();
+            try
+            {
+                Application.Run(new SplashScreen());
+            }
+            catch
+            {
 
+            }
         }
 
         private void start_game_Click(object sender, EventArgs e)
@@ -38,6 +45,11 @@ namespace BattleShip
                 "При этом если корабль противника окажется уничтожен, огонь продолжается до первого промаха. " +
                 "После уничтожения корабля противника, рядом находящиеся ячейки подсвечиваются, показывая что рядом кораблей нет. " +
                 "После победы или поражения, можно начать игру снова или выйти");
+        }
+
+        private void StartForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

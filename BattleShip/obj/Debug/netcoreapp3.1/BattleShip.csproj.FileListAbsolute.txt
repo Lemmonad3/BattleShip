@@ -16,3 +16,4 @@ D:\ProjectVisualStudio\BattleShip\BattleShip\obj\Debug\netcoreapp3.1\BattleShip.
 D:\ProjectVisualStudio\BattleShip\BattleShip\obj\Debug\netcoreapp3.1\BattleShip.pdb
 D:\ProjectVisualStudio\BattleShip\BattleShip\obj\Debug\netcoreapp3.1\BattleShip.genruntimeconfig.cache
 D:\ProjectVisualStudio\BattleShip\BattleShip\obj\Debug\netcoreapp3.1\BattleShip..resources
+D:\ProjectVisualStudio\BattleShip\BattleShip\obj\Debug\netcoreapp3.1\BattleShip.SplashScreen.resources

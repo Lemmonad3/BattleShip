@@ -92,6 +92,7 @@ namespace BattleShip
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Морской Бой";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.StartForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
